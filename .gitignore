@@ -81,6 +81,7 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
+assets
 
 # Gatsby files
 .cache/
@@ -102,3 +103,23 @@ dist
 
 # TernJS port file
 .tern-port
+
+# GoLand exclude
+.idea/
+.idea/workspace.xml
+**/.idea/workspace.xml
+
+# mac hidden files
+.DS_Store
+
+#other
+.tmp
+*.ogg
+*.mp3
+*.mp4
+*.png
+*.jpeg
+*.jpg
+*.tiff
+
+
