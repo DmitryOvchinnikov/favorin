@@ -84,20 +84,19 @@ $screenSmall: 375px;
   }
 }
 
-
-// Customize background image
-body {
-  background: url("/assets/images/bkg/1440X1024.png") no-repeat fixed 0 0; background-size: cover;
-  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024.png") no-repeat fixed 0 0; background-size: cover; }
-  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768.png") no-repeat fixed 0 0; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768.png") no-repeat fixed 0 0; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/640x480.png") no-repeat fixed 0 0; background-size: cover; }
+// Customize background
+.bkg-main {
+  background: url("/assets/images/bkg/1440X1024.png") no-repeat left center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/1024x768.png") no-repeat left center fixed; background-size: cover; }
 
   z-index: -3;
 }
 
 // color goes behind img to progressive enhancement
-body {
+.bkg-main {
   background-color: $body-bg;
 }
 
