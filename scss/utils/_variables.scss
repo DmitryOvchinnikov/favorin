@@ -1,0 +1,59 @@
+// utils/variables.scss
+// ====================
+
+
+
+
+
+// Bootstrap global variables
+// --------------------------
+
+// Toggle global options
+$enable-gradients: false; // changed
+$enable-shadows: false; // changed
+
+
+
+
+
+// Colors
+// ------
+
+$colorOne: #4C4456;   // navigation active, body text
+
+$colorTwo: #E5E5DF;   // navigation basic
+
+$colorThree: #9DA59E; // background
+
+$colorFour: #3B3640;  //
+
+$colorFive: #66616F;  // visited
+
+$colorSix: #840C0C;   // hover
+
+
+$text: $colorOne;
+//$textDark: $colorOne;
+
+$link: $colorTwo;
+$active: $colorOne;
+$hover: $colorSix;
+$visited: $colorFive;
+
+$bkg: $colorThree;
+
+
+
+
+
+// Customize some Bootstrap color defaults
+// ---------------------------------------
+$body-color: $colorOne;
+$body-bg: $colorThree;
+$border-radius: .0rem;
+
+$white: $colorOne;
+$black: $colorOne;
+
+$navbar-dark-color: rgba($white, 1);
+$navbar-light-color: rgba($black, 1);

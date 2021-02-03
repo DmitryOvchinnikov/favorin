@@ -1,0 +1,53 @@
+// pages/music.scss
+// ================
+
+// Customize background
+// -------------------
+
+// music-discography page
+.bkg-music-discography {
+  background: url("/assets/images/bkg/1440X1024-music-discography.png") no-repeat left center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024-music-discography.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768-music-discography.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768-music-discography.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/1024x768-music-discography.png") no-repeat left center fixed; background-size: cover; }
+
+  // condition for a portrait layout
+  @media (max-aspect-ratio: 1/1) {
+    background: url("/assets/images/bkg/768x1024-music-discography.png") no-repeat center center fixed; background-size: cover;
+    @include breakpoint(screenLarge) { background: url("/assets/images/bkg/768x1024-music-discography.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/768x1024-music-discography.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/768x1024-music-discography.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenSmall) { background: url("/assets/images/bkg/320x568-music-discography.png") no-repeat center center fixed; background-size: cover; }
+  }
+
+  z-index: -3;
+}
+// color goes behind img to progressive enhancement
+.bkg-music-discography {
+  background-color: $body-bg;
+}
+
+// music-performances page
+.bkg-music-performances {
+  background: url("/assets/images/bkg/1440X1024-music-performances.png") no-repeat left center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024-music-performances.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768-music-performances.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768-music-performances.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/1024x768-music-performances.png") no-repeat left center fixed; background-size: cover; }
+
+  // condition for a portrait layout
+  @media (max-aspect-ratio: 1/1) {
+    background: url("/assets/images/bkg/768x1024-music-performances.png") no-repeat center center fixed; background-size: cover;
+    @include breakpoint(screenLarge) { background: url("/assets/images/bkg/768x1024-music-performances.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/768x1024-music-performances.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/768x1024-music-performances.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenSmall) { background: url("/assets/images/bkg/320x568-music-performances.png") no-repeat center center fixed; background-size: cover; }
+  }
+
+  z-index: -3;
+}
+// color goes behind img to progressive enhancement
+.bkg-music-performances {
+  background-color: $body-bg;
+}
