@@ -1,0 +1,28 @@
+// pages/bio.scss
+// ================
+
+// Customize background
+// -------------------
+
+.bkg-bio {
+  background: url("/assets/images/bkg/1440X1024-bio.png") no-repeat left center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024-bio.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768-bio.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768-bio.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/1024x768-bio.png") no-repeat left center fixed; background-size: cover; }
+
+  // condition for a portrait layout
+  @media (max-aspect-ratio: 1/1) {
+    background: url("/assets/images/bkg/768x1024-bio.png") no-repeat center center fixed; background-size: cover;
+    @include breakpoint(screenLarge) { background: url("/assets/images/bkg/768x1024-bio.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/768x1024-bio.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/768x1024-bio.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenSmall) { background: url("/assets/images/bkg/320x568-bio.png") no-repeat center center fixed; background-size: cover; }
+  }
+
+  z-index: -3;
+}
+// color goes behind img to progressive enhancement
+.bkg-bio {
+  background-color: $body-bg;
+}
