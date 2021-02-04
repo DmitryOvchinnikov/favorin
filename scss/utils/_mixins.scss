@@ -17,10 +17,11 @@
 A massive time saver! You can just use pixel values but we have some default breakpoints setup that work too, another time saver while keeping your breakpoints consistent.
 */
 // Breakpoints
-$screenLarge: 1440px; // 1440px=90rem
-$screenMediumUp: 1024px; // 1024px=64rem
-$screenMediumDown: 768px; // 768px=48rem
-$screenSmall: 375px; // 375px=23.4375rem
+//$screenLarge: 1440px; // 1440px=90rem
+//$screenMediumUp: 1024px; // 1024px=64rem
+//$screenMediumDown: 768px; // 768px=48rem
+//$screenSmall: 375px; // 375px=23.4375rem
+
 // Breakpoints Mixins
 @mixin breakpoint($point) {
     @if $point == screenLarge {
@@ -37,16 +38,16 @@ $screenSmall: 375px; // 375px=23.4375rem
     }
 }
 
-$breakpoints: (
-    "phone":        400px,
-    "phone-wide":   480px,
-    "phablet":      560px,
-    "tablet-small": 640px,
-    "tablet":       768px,
-    "tablet-wide":  1024px,
-    "desktop":      1248px,
-    "desktop-wide": 1440px
-);
+//$breakpoints: (
+//    "phone":        400px,
+//    "phone-wide":   480px,
+//    "phablet":      560px,
+//    "tablet-small": 640px,
+//    "tablet":       768px,
+//    "tablet-wide":  1024px,
+//    "desktop":      1248px,
+//    "desktop-wide": 1440px
+//);
 
 @mixin mq($width, $type: min) {
     @if map_has_key($breakpoints, $width) {

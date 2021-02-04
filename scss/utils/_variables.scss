@@ -4,6 +4,16 @@
 
 
 
+// Breakpoints
+// -----------
+$screenLarge: 1440px; // 1440px=90rem
+$screenMediumUp: 1024px; // 1024px=64rem
+$screenMediumDown: 768px; // 768px=48rem
+$screenSmall: 375px; // 375px=23.4375rem
+
+
+
+
 
 // Bootstrap global variables
 // --------------------------
@@ -64,6 +74,6 @@ $navbar-light-color: rgba($black, 1);
 
 // Style anchor elements.
 $link-color:                              $link;
-//$link-decoration:                         none !default;
+$link-decoration:                         none !default;
 $link-hover-color:                        $hover;
 $link-hover-decoration:                   underline;
