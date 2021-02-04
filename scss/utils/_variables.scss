@@ -21,15 +21,15 @@ $enable-shadows: false; // changed
 
 $colorOne: #4C4456;   // navigation active, body text
 
-$colorTwo: #E5E5DF;   // navigation basic
+$colorTwo: #e5e5df;   // navigation basic
 
 $colorThree: #9DA59E; // background
 
-$colorFour: #3B3640;  //
+$colorFour: #3B3640;  // hover
 
 $colorFive: #66616F;  // visited
 
-$colorSix: #840C0C;   // hover
+$colorSix: #840c0c;   //
 
 
 $text: $colorOne;
@@ -37,7 +37,7 @@ $text: $colorOne;
 
 $link: $colorTwo;
 $active: $colorOne;
-$hover: $colorSix;
+$hover: $colorFour;
 $visited: $colorFive;
 
 $bkg: $colorThree;
@@ -57,3 +57,13 @@ $black: $colorOne;
 
 $navbar-dark-color: rgba($white, 1);
 $navbar-light-color: rgba($black, 1);
+
+
+// Links
+// -----
+
+// Style anchor elements.
+$link-color:                              $link;
+//$link-decoration:                         none !default;
+$link-hover-color:                        $hover;
+$link-hover-decoration:                   underline;
