@@ -4,11 +4,18 @@
 // Font: Style & Color
 // -------------------
 
-svg .draw {
-  stroke: $hover;
+.draw {
+  stroke: $link;
   stroke-width: 1px;
   fill: none;
   fill-rule: evenodd;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 
-  transition: 0.5s;
+  transition: all 0.3s ease-in-out;
 }
+
+.draw:hover {stroke: $hover;}
+.draw:active {stroke: $active;}
+//.draw:visited {stroke: $visited;}
+
