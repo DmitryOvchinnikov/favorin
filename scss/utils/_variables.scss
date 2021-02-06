@@ -6,13 +6,17 @@
 
 // Breakpoints
 // -----------
-$screenLarge: 1440px; // 1440px=90rem
-$screenMediumUp: 1024px; // 1024px=64rem
-$screenMediumDown: 768px; // 768px=48rem
-$screenSmall: 375px; // 375px=23.4375rem
+//$screenLarge: 1440px; // 1440px=90rem
+//$screenMediumUp: 1024px; // 1024px=64rem
+//$screenMediumDown: 768px; // 768px=48rem
+//$screenSmall: 375px; // 375px=23.4375rem
 
-
-
+// Breakpoints from Bootstrap
+// --------------------------
+$screenLarge: 1200px;
+$screenMediumUp: 992px;
+$screenMediumDown: 768px;
+$screenSmall: 576px;
 
 
 // Bootstrap global variables

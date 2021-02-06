@@ -3,19 +3,19 @@
 
 // underline hover animation
 // https://codepen.io/jstn/pen/zuDst
-.blog-nav ul {
+ul {
   display: table;
   text-align: center;
 }
-.blog-nav li {
+li {
   display: table-cell;
   position: relative;
 }
-.blog-nav a {
+a {
   display: inline-block;
   position: relative;
 }
-.blog-nav a:after {
+a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -27,21 +27,21 @@
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.blog-nav a:hover:after {
+a:hover:after {
   width: 60%; left: 20%;
-  @include breakpoint(screenLarge) { width: 60%; left: 20%; }
-  @include breakpoint(screenMediumUp) { width: 6%; left: 47%; }
-  @include breakpoint(screenMediumDown) { width: 6%; left: 47%; }
-  @include breakpoint(screenSmall) { width: 6%; left: 47%; }
+  //@include breakpoint(screenLarge) { width: 60%; left: 20%; }
+  //@include breakpoint(screenMediumUp) { width: 6%; left: 47%; }
+  //@include breakpoint(screenMediumDown) { width: 6%; left: 47%; }
+  //@include breakpoint(screenSmall) { width: 6%; left: 47%; }
 
   // condition for a portrait layout
-  @media (max-aspect-ratio: 1/1) {
-    width: 8%; left: 46%;
-    @include breakpoint(screenLarge) { width: 8%; left: 46%; }
-    @include breakpoint(screenMediumUp) { width: 8%; left: 46%; }
-    @include breakpoint(screenMediumDown) { width: 10%; left: 45%; }
-    @include breakpoint(screenSmall) { width: 20%; left: 40%; }
-  }
+  //@media (max-aspect-ratio: 1/1) {
+  //  width: 60%; left: 20%;
+    //@include breakpoint(screenLarge) { width: 8%; left: 46%; }
+    //@include breakpoint(screenMediumUp) { width: 8%; left: 46%; }
+    //@include breakpoint(screenMediumDown) { width: 10%; left: 45%; }
+    //@include breakpoint(screenSmall) { width: 20%; left: 40%; }
+  //}
 }
 //@media screen and (max-height: 300px) {
 //  ul {
