@@ -3,19 +3,19 @@
 
 // underline hover animation
 // https://codepen.io/jstn/pen/zuDst
-ul {
+.blog-nav ul {
   display: table;
   text-align: center;
 }
-li {
+.blog-nav li {
   display: table-cell;
   position: relative;
 }
-a {
+.blog-nav a {
   display: inline-block;
   position: relative;
 }
-a:after {
+.blog-nav a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -27,7 +27,7 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after {
+.blog-nav a:hover:after {
   width: 60%; left: 20%;
   @include breakpoint(screenLarge) { width: 60%; left: 20%; }
   @include breakpoint(screenMediumUp) { width: 6%; left: 47%; }

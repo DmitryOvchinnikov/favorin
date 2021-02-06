@@ -1,2 +1,17 @@
 // layout/footer.scss
 // ==================
+
+// sticky footer
+// -------------
+
+.sticky-footer-press {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.sticky-footer-container { flex: 1; }
+
+//.blog-main {
+//  flex: 1;
+//}

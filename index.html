@@ -14,9 +14,13 @@
   <meta property="og:updated_time" content="" />
   <meta property="og:site_name" content="Yury Favorin" />
 
+  <meta name="copyright" content="Yury Favorin">
+  <meta name="author" content="Dmitry Ovchinnikov">
+
   <link rel="stylesheet" href="assets/css/starter.css">
 
   <link rel="canonical" href="http://favorin.ru/">
+
 
   <title>
 
@@ -27,7 +31,7 @@
   <link href="http://favorin.ru/index.xml" rel="alternate" type="application/rss+xml" title="Yury Favorin" />
 
 </head>
-<body class="bkg-main">
+<body class="bkg-main sticky-footer-press">
 
   <!--!svg-nav-en-->
   <svg xmlns="http://www.w3.org/2000/svg"
@@ -209,18 +213,23 @@
   </svg>
   <!--/svg-nav-en-->
 
-  <!--!Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <header class="blog-header">
+    <!--!Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light blog-nav">
 
-      <a class="navbar-brand px-3 draw" href="#">
+      <!--!Name-->
+      <a class="navbar-brand px-3 draw" href="/">
         <svg width="77" height="38"><use xlink:href="#y-favorin-en"/></svg>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="draw"><svg width="22" height="20"><use xlink:href="#toggle"/></svg></span>
       </button>
+      <!--/Name-->
 
+      <!--!Menu-->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+        <!--!Menu-left-->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link px-3 draw" href="/news/">
@@ -258,7 +267,9 @@
             </a>
           </li>
         </ul>
+        <!--/Menu-left-->
 
+        <!--!Menu-right-->
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link px-3 draw" href="/en/">
@@ -276,16 +287,49 @@
             </a>
           </li>
         </ul>
+        <!--/Menu-right-->
+
+      </div>
+      <!--/Menu-->
+
+    </nav>
+    <!--/Navigation-->
+
+  </header>
+
+  <div class="container blog-main sticky-footer-container">
+    <div class="row">
+
+      <div class="">
 
       </div>
 
-  </nav>
+      <aside>
 
-  <div class="container">
+      </aside>
 
+    </div>
   </div>
+
+  <!--!Footer-->
+  <footer class="w-100 blog-footer">
+    <nav class="navbar navbar-light">
+      <p class="w-100 text-left">© 2021</p>
+    </nav>
+  </footer>
+  <!--!Footer-->
 
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script type="module" src="assets/js/starter.js"></script>
+
+  <!--!Google Analytics-->
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', '#', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  <!--/Google Analytics-->
+
 </body>
 </html>
