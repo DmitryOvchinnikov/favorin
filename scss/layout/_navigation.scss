@@ -29,22 +29,4 @@ a:after {
 }
 a:hover:after {
   width: 60%; left: 20%;
-  //@include breakpoint(screenLarge) { width: 60%; left: 20%; }
-  //@include breakpoint(screenMediumUp) { width: 6%; left: 47%; }
-  //@include breakpoint(screenMediumDown) { width: 6%; left: 47%; }
-  //@include breakpoint(screenSmall) { width: 6%; left: 47%; }
-
-  // condition for a portrait layout
-  //@media (max-aspect-ratio: 1/1) {
-  //  width: 60%; left: 20%;
-    //@include breakpoint(screenLarge) { width: 8%; left: 46%; }
-    //@include breakpoint(screenMediumUp) { width: 8%; left: 46%; }
-    //@include breakpoint(screenMediumDown) { width: 10%; left: 45%; }
-    //@include breakpoint(screenSmall) { width: 20%; left: 40%; }
-  //}
 }
-//@media screen and (max-height: 300px) {
-//  ul {
-//    margin-top: 20px;
-//  }
-//}
