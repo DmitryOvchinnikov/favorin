@@ -31,7 +31,7 @@
   <link href="http://favorin.ru/index.xml" rel="alternate" type="application/rss+xml" title="Yury Favorin" />
 
 </head>
-<body class="bkg-news">
+<body class="d-flex flex-column h-100 bkg-main">
 
   <!--!svg-nav-en-->
   <svg xmlns="http://www.w3.org/2000/svg"
@@ -301,9 +301,8 @@
     <div class="container">
       <div class="row">
 
-        <aside class="col-lg-2 col-md-1"></aside>
-
-        <div class="col-lg-8 col-md-9">
+        <!--Main content-->
+        <div class="col offset-md-2">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed orci ac lacus convallis dapibus in at tortor. Donec pretium ante arcu, vel rhoncus velit accumsan non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquam, risus a elementum bibendum, ligula neque ullamcorper magna, sit amet mattis quam erat placerat nisi. Aliquam erat volutpat. Nunc ornare eleifend quam, id dictum odio. Maecenas porta, urna lacinia posuere semper, ipsum nisl rhoncus sapien, nec eleifend libero lorem dapibus arcu.</p>
           <p>Curabitur scelerisque vestibulum quam sit amet viverra. Nullam elementum dolor vel neque ullamcorper suscipit. Proin et mi malesuada, vestibulum dolor vitae, placerat diam. Cras tempor tincidunt ligula sit amet tincidunt. Phasellus eleifend lectus dolor, vitae maximus sapien aliquam at. Nulla auctor, lacus vel blandit elementum, sem lectus auctor odio, in tincidunt nisl elit sed odio. Vivamus mattis diam vel varius bibendum. In tincidunt malesuada nibh, efficitur posuere ex tincidunt a.</p>
           <p>Etiam tincidunt enim volutpat eros egestas finibus vitae sed orci. Nam in enim purus. Quisque facilisis enim velit, nec gravida ante laoreet et. Donec at erat et tortor finibus sagittis auctor sed leo. Donec dapibus tempor quam, non tristique nulla sollicitudin in. Vestibulum lobortis tempus diam, id laoreet sem molestie sed. Fusce odio magna, mollis et arcu nec, maximus finibus est. Vestibulum faucibus, mauris id molestie eleifend, diam augue bibendum nibh, non facilisis leo est eget massa. Curabitur tristique lectus vel elit volutpat porttitor. Ut sit amet accumsan sapien. Sed placerat in arcu ac fermentum. Nulla velit velit, lobortis ut auctor imperdiet, placerat sed diam. Duis imperdiet libero in justo luctus, eget varius dui convallis. Aliquam at efficitur lacus, non pharetra dui. Aenean rhoncus aliquam urna, ut venenatis nisi ornare nec.</p>
@@ -311,7 +310,8 @@
           <p>Sed quis quam nunc. Donec aliquam et purus et sodales. Suspendisse venenatis non libero at vehicula. Integer ex sem, dignissim id laoreet facilisis, aliquet vitae augue. Phasellus ac est eget elit suscipit accumsan vitae ac libero. Cras in libero leo. Aliquam fringilla posuere dolor in vulputate. Sed blandit sapien purus, in gravida turpis bibendum quis. Vestibulum eu ultricies mi, in congue augue.</p>
         </div>
 
-        <aside class="col-lg-2 col-md-2 ml-auto blog-sidebar">
+        <!--Right side-->
+        <aside class="col-md-2 ml-auto blog-sidebar">
           <section class="nav">
             <ol class="list-unstyled">
               <li>

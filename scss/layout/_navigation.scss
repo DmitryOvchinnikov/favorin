@@ -30,3 +30,7 @@ a:after {
 a:hover:after {
   width: 60%; left: 20%;
 }
+
+p > a:hover:after {
+  width: 100%; left: 0%;
+}
