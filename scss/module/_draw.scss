@@ -20,3 +20,23 @@
 //.draw:visited {stroke: $visited;}
 
 .draw-active {stroke: $active;}
+
+a.draw {
+  display: inline-block;
+  position: relative;
+}
+a.draw:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: $hover;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a.draw:hover:after {
+  width: 100%; left: 0%;
+}
