@@ -46,6 +46,10 @@ a {
 	@include links($link, $visited, $hover, $active);
 }
 
+a.active {
+    color: $active;
+}
+
 .blog-text-secondary {
     font-family: "roboto-cond","Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     //color: $colorSix;
