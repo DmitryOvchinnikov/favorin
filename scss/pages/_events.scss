@@ -26,3 +26,35 @@
 .bkg-events {
   background-color: $body-bg;
 }
+
+
+
+
+// links
+// -----
+
+.blog-event {
+  color: $text;
+  font-size: 80%;
+}
+
+a.event-link {
+  color: $text;
+  text-decoration-line: underline;
+  transition: color 0.3s ease 0s, left 0.3s ease 0s;
+
+  &:hover {
+    color: $colorFive;
+    text-decoration-line: underline;
+  }
+}
+
+
+
+
+// underline
+// ---------
+
+section.events {
+  border-bottom: 1px solid $colorTwo;
+}
