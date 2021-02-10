@@ -36,3 +36,23 @@ img.blog-img-border-neutral {
     border: solid 1px $hover;
   }
 }
+
+// underline
+// ---------
+
+.blog-underline-light {
+  border-bottom: 1px solid $colorTwo;
+  transition: border-bottom 0.3s ease 0s;
+  &:hover {
+    border-bottom: 1px solid $hover;
+  }
+}
+
+.blog-underline-dark {
+  border-bottom: 1px solid $colorFive;
+  transition: border-bottom 0.3s ease 0s;
+  &:hover {
+    border-bottom: 1px solid $hover;
+  }
+}
+
