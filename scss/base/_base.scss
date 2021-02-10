@@ -13,6 +13,29 @@ html {
 // Images
 // ------
 
-img.blog-img-border {
+img.blog-img-border-light {
   border: solid 1px $colorTwo;
+  transition: border-color 0.5s ease 0s;
+  a:hover > & {
+    border: solid 1px $hover;
+  }
 }
+
+img.blog-img-border-dark {
+  border: solid 1px $colorOne;
+  transition: border-color 0.5s ease 0s;
+  a:hover > & {
+    border: solid 1px $hover;
+  }
+}
+
+img.blog-img-border-neutral {
+  border: solid 1px $colorThree;
+  transition: border-color 0.5s ease 0s;
+  a:hover > & {
+    border: solid 1px $hover;
+  }
+}
+
+
+
