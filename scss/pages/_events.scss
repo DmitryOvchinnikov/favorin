@@ -55,7 +55,7 @@ a.event-link {
   transition: color 0.3s ease 0s, left 0.3s ease 0s;
 
   &:hover {
-    color: $colorFive;
+    color: $hover;
     text-decoration-line: underline;
   }
 }
