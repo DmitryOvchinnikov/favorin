@@ -61,34 +61,34 @@ img.blog-img-animate {
 // ---------
 
 .blog-underline-light-hover {
-  border-bottom: 1px solid $colorTwo;
+  border-bottom: 1px dotted $colorTwo;
   transition: border-bottom 0.3s ease 0s;
   &:hover {
-    border-bottom: 1px solid $hover;
+    border-bottom: 1px dotted $hover;
   }
 }
 
 .blog-underline-dark-hover {
-  border-bottom: 1px solid $colorFive;
+  border-bottom: 1px dotted $colorFive;
   transition: border-bottom-color 0.5s ease 0s;
   &:hover {
-    border-bottom: 1px solid $hover;
+    border-bottom: 1px dotted $hover;
   }
 }
 
 .blog-underline-light-no-hover {
-  border-bottom: 1px solid $colorTwo;
+  border-bottom: 1px dotted $colorTwo;
 }
 
 .blog-underline-dark-no-hover {
-  border-bottom: 1px solid $text;
+  border-bottom: 1px dotted $text;
 }
 
 .blog-nav-underline-light {
   //border-bottom: 1px solid $colorTwo;
-  //@include breakpoint(screenLarge) { border-bottom: 1px solid $colorTwo; }
-  //@include breakpoint(screenMediumUp) { border-bottom: 1px solid $colorTwo; }
-  @include breakpoint(screenMediumDown) { border-bottom: 1px solid $colorTwo; padding-bottom: 1rem; }
-  @include breakpoint(screenSmall) { border-bottom: 1px solid $colorTwo; padding-bottom: 1rem; }
+  //@include breakpoint(screenLarge) { border-bottom: 1px dashed $colorTwo; }
+  //@include breakpoint(screenMediumUp) { border-bottom: 1px dashed $colorTwo; }
+  @include breakpoint(screenMediumDown) { border-bottom: 1px dashed $colorTwo; padding-bottom: 1rem; }
+  @include breakpoint(screenSmall) { border-bottom: 1px dashed $colorTwo; padding-bottom: 1rem; }
 }
 

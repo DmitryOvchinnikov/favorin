@@ -19,8 +19,9 @@ ul.blog-nav-sub {
   display: table;
   text-align: left;
 
+  // line under first line
   &>li:first-child a {
-    border-bottom: 1px solid $colorTwo;
+    border-bottom: 1px dotted $colorTwo;
   }
 
   border-left: 1px solid $colorTwo;
