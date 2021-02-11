@@ -1,12 +1,18 @@
 // base/base.scss
 // ==============
 
+
+
+
+
 // Smooth scroll
 // -------------
 
 html {
   scroll-behavior: smooth;
 }
+
+
 
 
 
@@ -23,7 +29,7 @@ img.blog-img-border-light {
 
 img.blog-img-border-dark {
   border: solid 1px $colorOne;
-  transition: border-color 0.5s ease 0s;
+  transition: border 0.5s ease 0s;
   a:hover > & {
     border: solid 1px $hover;
   }
@@ -31,30 +37,30 @@ img.blog-img-border-dark {
 
 img.blog-img-border-neutral {
   border: solid 1px $colorThree;
-  clip-path: circle(40%);
 
-  transition: border-color 0.5s ease 0s, clip-path 0.7s ease-in-out 0s;
+  transition: border-color 0.5s ease 0s;
   a:hover > & {
     border: solid 1px $hover;
+  }
+}
+
+img.blog-img-animate {
+  clip-path: circle(40%);
+
+  transition: clip-path 0.7s ease-in-out 0s;
+  a:hover > & {
     clip-path: circle(100%);
   }
 }
 
-//img.blog-img-border-neutral {
-//  border: solid 1px $colorThree;
-//  border-radius: 50%;
-//
-//  transition: border-color 0.5s ease 0s, border-radius 0.5s ease 0s;
-//  a:hover > & {
-//    border: solid 1px $hover;
-//    border-radius: 0%;
-//  }
-//}
-//
+
+
+
+
 // underline
 // ---------
 
-.blog-underline-light {
+.blog-underline-light-hover {
   border-bottom: 1px solid $colorTwo;
   transition: border-bottom 0.3s ease 0s;
   &:hover {
@@ -62,11 +68,19 @@ img.blog-img-border-neutral {
   }
 }
 
-.blog-underline-dark {
+.blog-underline-dark-hover {
   border-bottom: 1px solid $colorFive;
-  transition: border-bottom 0.3s ease 0s;
+  transition: border-bottom-color 0.5s ease 0s;
   &:hover {
     border-bottom: 1px solid $hover;
   }
+}
+
+.blog-underline-light-no-hover {
+  border-bottom: 1px solid $colorTwo;
+}
+
+.blog-underline-dark-no-hover {
+  border-bottom: 1px solid $text;
 }
 

@@ -1,2 +1,27 @@
 // module/icon.scss
 // ===============
+
+
+
+
+// icon svg
+// --------
+
+.blog-icon-light svg {
+  fill: $colorTwo;
+  transition: fill 0.5s ease 0s;
+
+  &:hover {
+    fill: $hover;
+  }
+}
+
+.blog-icon-dark svg {
+  fill: $text;
+  transition: fill 0.5s ease 0s;
+
+  &:hover {
+    fill: $colorTwo;
+  }
+}
+
