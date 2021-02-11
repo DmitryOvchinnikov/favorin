@@ -38,16 +38,16 @@ img.blog-img-border-dark {
 img.blog-img-border-neutral {
   border: solid 1px $colorThree;
 
-  transition: border-color 0.5s ease 0s;
-  a:hover > & {
-    border: solid 1px $hover;
-  }
+  //transition: border-color 0.5s ease 0s;
+  //a:hover > & {
+  //  border: solid 1px $hover;
+  //}
 }
 
 img.blog-img-animate {
   clip-path: circle(40%);
 
-  transition: clip-path 0.7s ease-in-out 0s;
+  transition: clip-path 0.5s ease 0s;
   a:hover > & {
     clip-path: circle(100%);
   }
@@ -82,5 +82,13 @@ img.blog-img-animate {
 
 .blog-underline-dark-no-hover {
   border-bottom: 1px solid $text;
+}
+
+.blog-nav-underline-light {
+  //border-bottom: 1px solid $colorTwo;
+  //@include breakpoint(screenLarge) { border-bottom: 1px solid $colorTwo; }
+  //@include breakpoint(screenMediumUp) { border-bottom: 1px solid $colorTwo; }
+  @include breakpoint(screenMediumDown) { border-bottom: 1px solid $colorTwo; padding-bottom: 1rem; }
+  @include breakpoint(screenSmall) { border-bottom: 1px solid $colorTwo; padding-bottom: 1rem; }
 }
 

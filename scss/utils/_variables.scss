@@ -39,11 +39,11 @@ $colorTwo: #e5e5df;   // navigation basic
 
 $colorThree: #9DA59E; // background
 
-$colorFour: #3B3640;  // hover
+$colorFour: #3B3640;  //
 
 $colorFive: #66616F;  // visited
 
-$colorSix: #840c0c;   //
+$colorSix: #FBEC01;   // hover
 
 
 $text: $colorOne;
@@ -51,7 +51,7 @@ $text: $colorOne;
 
 $link: $colorTwo;
 $active: $colorOne;
-$hover: $colorFour;
+$hover: $colorSix;
 $visited: $colorTwo;
 
 $bkg: $colorThree;

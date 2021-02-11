@@ -37,23 +37,3 @@ body {
 .bkg-events {
   background-color: $body-bg;
 }
-
-
-
-
-// links
-// -----
-
-.blog-event {
-  color: $text;
-}
-
-a.blog-event-link {
-  font-family: "roboto-cond","Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  color: $text;
-  transition: color 0.5s ease 0s, left 0.3s ease 0s;
-
-  &:hover {
-    color: $colorTwo;
-  }
-}
