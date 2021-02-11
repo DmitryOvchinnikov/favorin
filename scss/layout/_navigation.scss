@@ -19,6 +19,10 @@ ul.blog-nav-sub {
   display: table;
   text-align: left;
 
+  &>li:first-child a {
+    border-bottom: 1px solid $colorTwo;
+  }
+
   border-left: 1px solid $colorTwo;
   transition: border-left 0.3s ease 0s;
   &:hover {
@@ -41,5 +45,3 @@ ul.blog-nav-sub {
     width: 100%; left: 0%;
   }
 }
-
-
