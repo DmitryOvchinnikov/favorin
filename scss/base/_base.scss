@@ -47,7 +47,7 @@ img.blog-img-border-neutral {
 img.blog-img-animate {
   clip-path: circle(40%);
 
-  transition: clip-path 0.5s ease 0s;
+  transition: clip-path 1.5s ease 0s;
   a:hover > & {
     clip-path: circle(100%);
   }
