@@ -50,6 +50,23 @@ time {
   color: $colorTwo;
 }
 
+.blog-text-dark {
+  color: $text;
+}
+
+.blog-text-neutral {
+  color: $colorThree;
+
+  & > li > a {
+    color: $colorThree;
+    transition: color 0.5s ease 0s;
+
+    &:hover {
+      color: $hover;
+    }
+  }
+}
+
 a {
 	text-decoration: underline;
 	@include links($link, $visited, $hover, $active);

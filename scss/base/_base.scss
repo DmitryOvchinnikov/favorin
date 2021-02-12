@@ -16,6 +16,22 @@ html {
 
 
 
+// Color Background
+// ----------------
+
+.blog-bkg-light {
+  background-color: $colorTwo;
+}
+.blog-bkg-dark {
+  background-color: $colorFour;
+}
+.blog-bkg-neutral {
+  background-color: $colorThree;
+}
+
+
+
+
 // Images
 // ------
 
@@ -57,7 +73,7 @@ img.blog-img-animate {
 
 
 
-// underline
+// Underline
 // ---------
 
 .blog-underline-light-hover {
@@ -85,10 +101,41 @@ img.blog-img-animate {
 }
 
 .blog-nav-underline-light {
-  //border-bottom: 1px solid $colorTwo;
-  //@include breakpoint(screenLarge) { border-bottom: 1px dashed $colorTwo; }
-  //@include breakpoint(screenMediumUp) { border-bottom: 1px dashed $colorTwo; }
-  @include breakpoint(screenMediumDown) { border-bottom: 1px dashed $colorTwo; padding-bottom: 1rem; }
-  @include breakpoint(screenSmall) { border-bottom: 1px dashed $colorTwo; padding-bottom: 1rem; }
+  //border-bottom: 1px dotted $colorTwo;
+  //@include breakpoint(screenLarge) { border-bottom: 1px dotted $colorTwo; }
+  //@include breakpoint(screenMediumUp) { border-bottom: 1px dotted $colorTwo; }
+  @include breakpoint(screenMediumDown) { border-bottom: 1px dotted $colorTwo; padding-bottom: 1rem; }
+  @include breakpoint(screenSmall) { border-bottom: 1px dotted $colorTwo; padding-bottom: 1rem; }
+}
+
+
+
+
+
+// Above Line
+// ----------
+
+.blog-nav-aboveline-light {
+  border-top: 1px dotted $colorTwo;
+  @include breakpoint(screenLarge) { border-top: 1px dotted $colorTwo; }
+  @include breakpoint(screenMediumUp) { border-top: 1px dotted $colorTwo; }
+  @include breakpoint(screenMediumDown) { border-top: 1px dotted $colorTwo; padding-top: 1rem; }
+  @include breakpoint(screenSmall) { border-top: 1px dotted $colorTwo; padding-top: 1rem; }
+}
+
+.blog-nav-aboveline-dark {
+  border-top: 1px dotted $colorOne;
+  @include breakpoint(screenLarge) { border-top: 1px dotted $colorOne; }
+  @include breakpoint(screenMediumUp) { border-top: 1px dotted $colorOne; }
+  @include breakpoint(screenMediumDown) { border-top: 1px dotted $colorOne; padding-top: 1rem; }
+  @include breakpoint(screenSmall) { border-top: 1px dotted $colorOne; padding-top: 1rem; }
+}
+
+.blog-nav-aboveline-neutral {
+  border-top: 1px dotted $colorThree;
+  @include breakpoint(screenLarge) { border-top: 1px dotted $colorThree; }
+  @include breakpoint(screenMediumUp) { border-top: 1px dotted $colorThree; }
+  @include breakpoint(screenMediumDown) { border-top: 1px dotted $colorThree; padding-top: 1rem; }
+  @include breakpoint(screenSmall) { border-top: 1px dotted $colorThree; padding-top: 1rem; }
 }
 
