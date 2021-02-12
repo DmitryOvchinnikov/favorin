@@ -44,6 +44,12 @@ time {
 	line-height: $lineHeight;
 }
 
+// light text color
+
+.blog-text-light {
+  color: $colorTwo;
+}
+
 a {
 	text-decoration: underline;
 	@include links($link, $visited, $hover, $active);
