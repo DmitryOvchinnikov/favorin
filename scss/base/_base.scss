@@ -92,12 +92,24 @@ img.blog-img-animate {
   }
 }
 
+.blog-underline-neutral-hover {
+  border-bottom: 1px dotted $colorThree;
+  transition: border-bottom-color 0.5s ease 0s;
+  &:hover {
+    border-bottom: 1px dotted $hover;
+  }
+}
+
 .blog-underline-light-no-hover {
   border-bottom: 1px dotted $colorTwo;
 }
 
 .blog-underline-dark-no-hover {
   border-bottom: 1px dotted $text;
+}
+
+.blog-underline-neutral-no-hover {
+  border-bottom: 1px dotted $colorThree;
 }
 
 .blog-nav-underline-light {
