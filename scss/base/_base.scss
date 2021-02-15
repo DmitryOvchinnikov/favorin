@@ -28,6 +28,9 @@ html {
 .blog-bkg-neutral {
   background-color: $colorThree;
 }
+.blog-bkg-none {
+  background: none;
+}
 
 
 
@@ -151,3 +154,17 @@ img.blog-img-animate {
   @include breakpoint(screenSmall) { border-top: 1px dotted $colorThree; padding-top: 1rem; }
 }
 
+
+
+
+
+// Visability on hover
+// -------------------
+
+.hide-on-hover {
+  visibility: visible;
+
+  &:hover {
+    visibility: hidden;
+  }
+}

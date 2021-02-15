@@ -21,6 +21,16 @@
 
 
 
+// Font size
+// ---------
+
+.blog-text-bigger {
+  font-size: larger;
+}
+
+
+
+
 
 // Font for project
 // ----------------
@@ -69,17 +79,26 @@ time {
 
 a {
 	text-decoration: underline;
-	@include links($link, $visited, $hover, $active);
+    transition: color 0.5s ease 0s;
+
+    @include links($link, $visited, $hover, $active);
 }
 
 a.active {
     color: $active;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .blog-text-second {
     font-family: "roboto-cond","Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     //color: $colorSix;
     color: $text;
+
 }
 
 .blog-text-big {
