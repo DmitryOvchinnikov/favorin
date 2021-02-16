@@ -7,7 +7,8 @@
 // icon svg
 // --------
 
-.blog-icon-light svg {
+.blog-icon-light svg,
+svg.blog-icon-light {
   fill: $colorTwo;
   transition: fill 0.5s ease 0s;
 
@@ -16,7 +17,8 @@
   }
 }
 
-.blog-icon-dark svg {
+.blog-icon-dark svg,
+svg.blog-icon-dark {
   fill: $text;
   transition: fill 0.5s ease 0s;
 
@@ -25,7 +27,8 @@
   }
 }
 
-.blog-icon-neutral svg {
+.blog-icon-neutral svg,
+svg.blog-icon-neutral {
   fill: $colorThree;
   transition: fill 0.5s ease 0s;
 
