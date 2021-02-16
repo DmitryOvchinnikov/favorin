@@ -6,19 +6,19 @@
 
 // music-discography page
 .bkg-music-discography {
-  background: url("/assets/images/bkg/1440X1024-music-discography.png") no-repeat left center fixed; background-size: cover;
-  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024-music-discography.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768-music-discography.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768-music-discography.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/1024x768-music-discography.png") no-repeat left center fixed; background-size: cover; }
+  background: url("/music/discography/img/1440x1024.png") no-repeat left center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/music/discography/img/1440x1024.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/music/discography/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/music/discography/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/music/discography/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
 
   // condition for a portrait layout
   @media (max-aspect-ratio: 1/1) {
-    background: url("/assets/images/bkg/768x1024-music-discography.png") no-repeat center center fixed; background-size: cover;
-    @include breakpoint(screenLarge) { background: url("/assets/images/bkg/768x1024-music-discography.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/768x1024-music-discography.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/768x1024-music-discography.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenSmall) { background: url("/assets/images/bkg/320x568-music-discography.png") no-repeat center center fixed; background-size: cover; }
+    background: url("/music/discography/img/768x1024.png") no-repeat center center fixed; background-size: cover;
+    @include breakpoint(screenLarge) { background: url("/music/discography/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumUp) { background: url("/music/discography/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumDown) { background: url("/music/discography/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenSmall) { background: url("/music/discography/img/320x568.png") no-repeat center center fixed; background-size: cover; }
   }
 
   z-index: -3;
@@ -30,19 +30,19 @@
 
 // music-performances page
 .bkg-music-performances {
-  background: url("/assets/images/bkg/1440X1024-music-performances.png") no-repeat left center fixed; background-size: cover;
-  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024-music-performances.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768-music-performances.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768-music-performances.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/1024x768-music-performances.png") no-repeat left center fixed; background-size: cover; }
+  background: url("/music/performances/img/1440x1024.png") no-repeat left center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/music/performances/img/1440x1024.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/music/performances/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/music/performances/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/music/performances/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
 
   // condition for a portrait layout
   @media (max-aspect-ratio: 1/1) {
-    background: url("/assets/images/bkg/768x1024-music-performances.png") no-repeat center center fixed; background-size: cover;
-    @include breakpoint(screenLarge) { background: url("/assets/images/bkg/768x1024-music-performances.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/768x1024-music-performances.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/768x1024-music-performances.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenSmall) { background: url("/assets/images/bkg/320x568-music-performances.png") no-repeat center center fixed; background-size: cover; }
+    background: url("/music/performances/img/768x1024.png") no-repeat center center fixed; background-size: cover;
+    @include breakpoint(screenLarge) { background: url("/music/performances/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumUp) { background: url("/music/performances/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumDown) { background: url("/music/performances/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenSmall) { background: url("/music/performances/img/320x568.png") no-repeat center center fixed; background-size: cover; }
   }
 
   z-index: -3;

@@ -4,25 +4,25 @@
 // Customize background
 // -------------------
 
-.bkg-main {
-  background: url("/assets/images/bkg/1440X1024-main.png") no-repeat left center fixed; background-size: cover;
-  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024-main.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768-main.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768-main.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/1024x768-main.png") no-repeat left center fixed; background-size: cover; }
+.blog-bkg-main {
+  background: url("/img/1440x1024.png") no-repeat left center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/img/1440x1024.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
 
   // condition for a portrait layout
   @media (max-aspect-ratio: 1/1) {
-    background: url("/assets/images/bkg/768x1024-main.png") no-repeat center center fixed; background-size: cover;
-    @include breakpoint(screenLarge) { background: url("/assets/images/bkg/768x1024-main.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/768x1024-main.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/768x1024-main.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenSmall) { background: url("/assets/images/bkg/320x568-main.png") no-repeat center center fixed; background-size: cover; }
+    background: url("/img/768x1024.png") no-repeat center center fixed; background-size: cover;
+    @include breakpoint(screenLarge) { background: url("/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumUp) { background: url("/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenMediumDown) { background: url("/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+    @include breakpoint(screenSmall) { background: url("/img/320x568.png") no-repeat center center fixed; background-size: cover; }
   }
 
   z-index: -3;
 }
 // color goes behind img to progressive enhancement
-.bkg-main {
+.blog-bkg-main {
   background-color: $body-bg;
 }

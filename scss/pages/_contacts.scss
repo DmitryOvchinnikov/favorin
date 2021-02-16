@@ -5,19 +5,19 @@
 // -------------------
 
 .bkg-contacts {
-  background: url("/assets/images/bkg/1440X1024-contacts.png") no-repeat left center fixed; background-size: cover;
-  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/1440x1024-contacts.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/1024x768-contacts.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/1024x768-contacts.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/1024x768-contacts.png") no-repeat left center fixed; background-size: cover; }
+  background: url("/contacts/img/1440x1024.png") no-repeat left center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/contacts/img/1440x1024.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/contacts/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/contacts/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/contacts/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
 
   // condition for a portrait layout
   @media (max-aspect-ratio: 1/1) {
-    background: url("/assets/images/bkg/768x1024-contacts.png") no-repeat right center fixed; background-size: cover;
-    @include breakpoint(screenLarge) { background: url("/assets/images/bkg/768x1024-contacts.png") no-repeat right center fixed; background-size: cover; }
-    @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/768x1024-contacts.png") no-repeat right center fixed; background-size: cover; }
-    @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/768x1024-contacts.png") no-repeat right center fixed; background-size: cover; }
-    @include breakpoint(screenSmall) { background: url("/assets/images/bkg/320x568-contacts.png") no-repeat right center fixed; background-size: cover; }
+    background: url("/contacts/img/768x1024.png") no-repeat right center fixed; background-size: cover;
+    @include breakpoint(screenLarge) { background: url("/contacts/img/768x1024.png") no-repeat right center fixed; background-size: cover; }
+    @include breakpoint(screenMediumUp) { background: url("/contacts/img/768x1024.png") no-repeat right center fixed; background-size: cover; }
+    @include breakpoint(screenMediumDown) { background: url("/contacts/img/768x1024.png") no-repeat right center fixed; background-size: cover; }
+    @include breakpoint(screenSmall) { background: url("/contacts/img/320x568.png") no-repeat right center fixed; background-size: cover; }
   }
 
   z-index: -3;
