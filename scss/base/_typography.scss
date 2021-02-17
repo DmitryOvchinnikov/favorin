@@ -49,12 +49,18 @@ figcaption,
 time {
 	font-family: "opensans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 	color: $text;
-	font-style: normal;
+	//font-style: normal;
+    //font-weight: 200;
 	font-size: 90%;
 	line-height: $lineHeight;
 }
 
-// light text color
+
+
+
+
+// Text color
+// ----------
 
 .blog-text-light {
   color: $colorTwo;
@@ -64,7 +70,7 @@ time {
   color: $text;
 }
 
-.blog-text-neutral {
+.blog-text-neutral{
   color: $colorThree;
 
   & > li > a {
@@ -78,14 +84,8 @@ time {
 }
 
 a {
-	text-decoration: underline;
     transition: color 0.5s ease 0s;
-
     @include links($link, $visited, $hover, $active);
-}
-
-a.active {
-    color: $active;
 }
 
 h1,
@@ -96,24 +96,31 @@ h5,
 h6,
 .blog-text-second {
     font-family: "roboto-cond","Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-    //color: $colorSix;
     color: $text;
-
 }
 
 .blog-text-big {
-    font-family: "roboto-cond","Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     color: $colorTwo;
-    font-size: 250%;
-    font-weight: 200;
-    letter-spacing: -2px;
+    font-size: 3em;
+    font-weight: 100;
+    letter-spacing: -3px;
 
-    opacity: 80%;
+    //line-height: 0.4em;
+
+    opacity: 60%;
 }
 
-.blog-post-title {
-    color: $text;
+.blog-text-no-big {
+    color: $colorTwo;
+    font-size: 1em;
+    //font-weight: 100;
+    //letter-spacing: -3px;
+
+    //line-height: 0.4em;
+
+    opacity: 70%;
 }
+
 
 
 
@@ -121,18 +128,12 @@ h6,
 // links
 // -----
 
-.blog-text {
-  color: $text;
-}
-
+a,
 a.blog-link {
-  font-family: "roboto-cond","Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  color: $text;
   transition: color 0.5s ease 0s, left 0.3s ease 0s;
 
   &:hover {
-    //color: $hover;
-    color: lighten($hover, 20);
+    color: $hover;
   }
 }
 
@@ -151,18 +152,18 @@ a.blog-link {
 
 //================================================================================
 
-body {
-  /* The Browser makes its best guess with its own rendering engine */
-  /* results will vary based on the browser */
-  text-rendering: auto;
-
-  /* The Browser chooses page speed over font calculations and legibility */
-  text-rendering: optimizeSpeed;
-
-  /* The Browser chooses legibility over font calculations and page speed */
-  text-rendering: optimizeLegibility;
-
-  /* The Browser chooses exact font calculations over page speed and legibility */
-  text-rendering: geometricPrecision;
-}
+//body {
+//  /* The Browser makes its best guess with its own rendering engine */
+//  /* results will vary based on the browser */
+//  text-rendering: auto;
+//
+//  /* The Browser chooses page speed over font calculations and legibility */
+//  text-rendering: optimizeSpeed;
+//
+//  /* The Browser chooses legibility over font calculations and page speed */
+//  text-rendering: optimizeLegibility;
+//
+//  /* The Browser chooses exact font calculations over page speed and legibility */
+//  text-rendering: geometricPrecision;
+//}
 

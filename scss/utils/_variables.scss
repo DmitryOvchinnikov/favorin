@@ -45,16 +45,26 @@ $colorFive: #66616F;  // visited
 
 $colorSix: #FBEC01;   // hover
 
+// Basic text
+// ----------
 
 $text: $colorOne;
 //$textDark: $colorOne;
 
-$link: $colorTwo;
-$active: $colorOne;
+$link: $text;
+$active: $colorTwo;
 $hover: $colorSix;
-$visited: $colorTwo;
+$visited: $link;
 
 $bkg: $colorThree;
+
+// Draw word (navigation)
+// ----------------------
+
+$link-nav: $colorTwo;
+$active-nav: $colorOne;
+$hover-nav: $colorSix;
+$visited-nav: $link-nav;
 
 
 
@@ -77,7 +87,7 @@ $navbar-light-color: rgba($black, 1);
 // -----
 
 // Style anchor elements.
-$link-color:                              $link;
+$link-color:                              $text;
 $link-decoration:                         none;
 $link-hover-color:                        $hover;
-$link-hover-decoration:                   none;
+$link-hover-decoration:                   underline;

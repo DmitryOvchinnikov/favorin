@@ -12,6 +12,20 @@ nav > li {
   position: relative;
 }
 
+.blog-link {
+  color: $link-nav;
+  transition: color 0.3s ease 0s;
+
+  &:hover {
+    color: $hover-nav;
+  }
+
+  &:hover:after,
+  &:visited {
+    color: $link-nav;
+  }
+}
+
 // Sub-navigation
 // --------------
 
@@ -21,13 +35,13 @@ ul.blog-nav-sub {
 
   // line under first line
   &>li:first-child a {
-    border-bottom: 1px dotted $colorTwo;
+    border-bottom: 1px dotted $link-nav;
   }
 
-  border-left: 1px solid $colorTwo;
+  border-left: 1px solid $link-nav;
   transition: border-left 0.3s ease 0s;
   &:hover {
-    border-left: 1px solid $hover;
+    border-left: 1px solid $hover-nav;
   }
 
   & a.draw:after {
@@ -38,7 +52,7 @@ ul.blog-nav-sub {
     height: 1px;
     left: 0%;
     position: absolute;
-    background: $hover;
+    background: $hover-nav;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }

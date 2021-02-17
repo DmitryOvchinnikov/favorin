@@ -5,7 +5,7 @@
 // -------------------
 
 .draw {
-  stroke: $link;
+  stroke: $link-nav;
   stroke-width: 1px;
   fill: none;
   fill-rule: evenodd;
@@ -15,11 +15,11 @@
   transition: all 0.3s ease-in-out;
 }
 
-.draw:hover {stroke: $hover;}
-.draw:active {stroke: $active;}
+.draw:hover {stroke: $hover-nav;}
+.draw:active {stroke: $active-nav;}
 //.draw:visited {stroke: $visited;}
 
-.draw-active {stroke: $active;}
+.draw-active {stroke: $active-nav;}
 
 a.draw {
   display: inline-block;
@@ -33,7 +33,7 @@ a.draw:after {
   height: 1px;
   left: 50%;
   position: absolute;
-  background: $hover;
+  background: $hover-nav;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
