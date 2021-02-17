@@ -55,6 +55,22 @@ time {
 	line-height: $lineHeight;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.blog-text-second {
+  font-family: "roboto-cond","Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  color: $text;
+}
+
+a {
+  transition: color 0.5s ease 0s;
+  @include links($link, $visited, $hover, $active);
+}
+
 
 
 
@@ -64,12 +80,28 @@ time {
 
 .blog-text-light {
   color: $colorTwo;
-}
 
+  & > li > a {
+    color: $colorTwo;
+    transition: color 0.5s ease 0s;
+
+    &:hover {
+      color: $hover;
+    }
+  }
+}
 .blog-text-dark {
   color: $text;
-}
 
+  & > li > a {
+    color: $text;
+    transition: color 0.5s ease 0s;
+
+    &:hover {
+      color: $hover;
+    }
+  }
+}
 .blog-text-neutral{
   color: $colorThree;
 
@@ -83,21 +115,7 @@ time {
   }
 }
 
-a {
-    transition: color 0.5s ease 0s;
-    @include links($link, $visited, $hover, $active);
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.blog-text-second {
-    font-family: "roboto-cond","Roboto Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-    color: $text;
-}
 
 .blog-text-big {
     color: $colorTwo;
