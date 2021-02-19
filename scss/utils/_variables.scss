@@ -6,17 +6,17 @@
 
 // Breakpoints
 // -----------
-//$screenLarge: 1440px; // 1440px=90rem
-//$screenMediumUp: 1024px; // 1024px=64rem
-//$screenMediumDown: 768px; // 768px=48rem
-//$screenSmall: 375px; // 375px=23.4375rem
+$screenLarge: 1440px; // 1440px=90rem
+$screenMediumUp: 1024px; // 1024px=64rem
+$screenMediumDown: 768px; // 768px=48rem
+$screenSmall: 375px; // 375px=23.4375rem
 
 // Breakpoints from Bootstrap
 // --------------------------
-$screenLarge: 1200px;
-$screenMediumUp: 992px;
-$screenMediumDown: 768px;
-$screenSmall: 576px;
+//$screenLarge: 1200px;
+//$screenMediumUp: 992px;
+//$screenMediumDown: 768px;
+//$screenSmall: 576px;
 
 
 // Bootstrap global variables
@@ -73,11 +73,11 @@ $visited-nav: $link-nav;
 // Customize some Bootstrap color defaults
 // ---------------------------------------
 $body-color: $colorOne;
-$body-bg: $colorFour;
+$body-bg: $colorThree;
 $border-radius: .0rem;
 
 $white: $colorOne;
-$black: $colorFour;
+$black: $colorThree;
 
 $navbar-dark-color: rgba($white, 1);
 $navbar-light-color: rgba($black, 1);
