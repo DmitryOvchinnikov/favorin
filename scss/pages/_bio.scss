@@ -5,20 +5,20 @@
 // -------------------
 
 .bkg-bio {
-  background: url("/bio/cv/img/1440x1024.png") no-repeat left center fixed; background-size: cover;
-  @include breakpoint(screenLarge) { background: url("/bio/cv/img/1440x1024.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumUp) { background: url("/bio/cv/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/bio/cv/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/bio/cv/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
+  background: url("/bio/cv/img/1440x1024.png") no-repeat center center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/bio/cv/img/1440x1024.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/bio/cv/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/bio/cv/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/bio/cv/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
 
   // condition for a portrait layout
-  @media (max-aspect-ratio: 1/1) {
-    background: url("/bio/cv/img/768x1024.png") no-repeat center center fixed; background-size: cover;
-    @include breakpoint(screenLarge) { background: url("/bio/cv/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumUp) { background: url("/bio/cv/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumDown) { background: url("/bio/cv/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenSmall) { background: url("/bio/cv/img/320x568.png") no-repeat center center fixed; background-size: cover; }
-  }
+  //@media (max-aspect-ratio: 1/1) {
+  //  background: url("/bio/cv/img/768x1024.png") no-repeat center center fixed; background-size: cover;
+  //  @include breakpoint(screenLarge) { background: url("/bio/cv/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumUp) { background: url("/bio/cv/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumDown) { background: url("/bio/cv/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenSmall) { background: url("/bio/cv/img/320x568.png") no-repeat center center fixed; background-size: cover; }
+  //}
 
   z-index: -3;
 }

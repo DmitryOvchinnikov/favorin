@@ -13,13 +13,13 @@
   @include breakpoint(screenSmall) { background: url("/non-music/film/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
 
   // condition for a portrait layout
-  @media (max-aspect-ratio: 1/1) {
-    background: url("/non-music/film/img/768x1024.png") no-repeat center center fixed; background-size: cover;
-    @include breakpoint(screenLarge) { background: url("/non-music/film/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumUp) { background: url("/non-music/film/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumDown) { background: url("/non-music/film/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenSmall) { background: url("/non-music/film/img/320x568.png") no-repeat center center fixed; background-size: cover; }
-  }
+  //@media (max-aspect-ratio: 1/1) {
+  //  background: url("/non-music/film/img/768x1024.png") no-repeat center center fixed; background-size: cover;
+  //  @include breakpoint(screenLarge) { background: url("/non-music/film/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumUp) { background: url("/non-music/film/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumDown) { background: url("/non-music/film/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenSmall) { background: url("/non-music/film/img/320x568.png") no-repeat center center fixed; background-size: cover; }
+  //}
 
   z-index: -3;
 }
@@ -38,13 +38,13 @@
   @include breakpoint(screenSmall) { background: url("/non-music/text/img/1024x768.png") no-repeat left center fixed; background-size: cover; }
 
   // condition for a portrait layout
-  @media (max-aspect-ratio: 1/1) {
-    background: url("/non-music/text/img/768x1024.png") no-repeat center center fixed; background-size: cover;
-    @include breakpoint(screenLarge) { background: url("/non-music/text/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumUp) { background: url("/non-music/text/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenMediumDown) { background: url("/non-music/text/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-    @include breakpoint(screenSmall) { background: url("/non-music/text/img/320x568.png") no-repeat center center fixed; background-size: cover; }
-  }
+  //@media (max-aspect-ratio: 1/1) {
+  //  background: url("/non-music/text/img/768x1024.png") no-repeat center center fixed; background-size: cover;
+  //  @include breakpoint(screenLarge) { background: url("/non-music/text/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumUp) { background: url("/non-music/text/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumDown) { background: url("/non-music/text/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenSmall) { background: url("/non-music/text/img/320x568.png") no-repeat center center fixed; background-size: cover; }
+  //}
 
   z-index: -3;
 }
