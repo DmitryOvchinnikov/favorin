@@ -15,26 +15,26 @@
 // Articles page
 // -------------------
 
-.bkg-press-articles {
+.blog-bkg-press-articles {
   background: url("/press/articles/img/1440x1024.png") no-repeat center center fixed; background-size: cover;
   @include breakpoint(screenLarge) { background: url("/press/articles/img/1440x1024.png") no-repeat center center fixed; background-size: cover; }
   @include breakpoint(screenMediumUp) { background: url("/press/articles/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/press/articles/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/press/articles/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
 
   // condition for a portrait layout
   //@media (max-aspect-ratio: 1/1) {
   //  background: url("/press/articles/img/768x1024.png") no-repeat center center fixed; background-size: cover;
   //  @include breakpoint(screenLarge) { background: url("/press/articles/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
   //  @include breakpoint(screenMediumUp) { background: url("/press/articles/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenMediumDown) { background: url("/press/articles/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenSmall) { background: url("/press/articles/img/320x568.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumDown) { background: url("/empty/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenSmall) { background: url("/empty/img/320x568.png") no-repeat center center fixed; background-size: cover; }
   //}
 
-  z-index: -3;
+  //z-index: -3;
 }
 // color goes behind img to progressive enhancement
-.bkg-press-articles {
+.blog-bkg-press-articles {
   background-color: $body-bg;
 }
 
@@ -45,26 +45,26 @@
 // Interview page
 // ----------
 
-.bkg-press-interview {
+.blog-bkg-press-interview {
   background: url("/press/interview/img/1440x1024.png") no-repeat center center fixed; background-size: cover;
   @include breakpoint(screenLarge) { background: url("/press/interview/img/1440x1024.png") no-repeat center center fixed; background-size: cover; }
   @include breakpoint(screenMediumUp) { background: url("/press/interview/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/press/interview/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/press/interview/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
 
   // condition for a portrait layout
   //@media (max-aspect-ratio: 1/1) {
   //  background: url("/press/interview/img/768x1024.png") no-repeat center center fixed; background-size: cover;
   //  @include breakpoint(screenLarge) { background: url("/press/interview/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
   //  @include breakpoint(screenMediumUp) { background: url("/press/interview/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenMediumDown) { background: url("/press/interview/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenSmall) { background: url("/press/interview/img/320x568.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumDown) { background: url("/empty/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenSmall) { background: url("/empty/img/320x568.png") no-repeat center center fixed; background-size: cover; }
   //}
 
-  z-index: -3;
+  //z-index: -3;
 }
 // color goes behind img to progressive enhancement
-.bkg-press-interview {
+.blog-bkg-press-interview {
   background-color: $body-bg;
 }
 
@@ -74,26 +74,26 @@
 // Press page
 // ----------
 
-.bkg-press {
-  background: url("/assets/images/bkg/unuse/1440x1024.png") no-repeat center center fixed; background-size: cover;
-  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/unuse/1440x1024.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/unuse/1024x768-press.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/unuse/1024x768-press.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/unuse/1024x768-press.png") no-repeat center center fixed; background-size: cover; }
+.blog-bkg-press {
+  background: url("/unused/img/1440x1024.png") no-repeat center center fixed; background-size: cover;
+  @include breakpoint(screenLarge) { background: url("/unused/img/1440x1024.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumUp) { background: url("/unused/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
 
   // condition for a portrait layout
   //@media (max-aspect-ratio: 1/1) {
-  //  background: url("/assets/images/bkg/unuse/768x1024-press.png") no-repeat center center fixed; background-size: cover;
-  //  @include breakpoint(screenLarge) { background: url("/assets/images/bkg/unuse/768x1024-press.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenMediumUp) { background: url("/assets/images/bkg/unuse/768x1024-press.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenMediumDown) { background: url("/assets/images/bkg/unuse/768x1024-press.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenSmall) { background: url("/assets/images/bkg/unuse/320x568-press.png") no-repeat center center fixed; background-size: cover; }
+  //  background: url("/unused/img/768x1024.png") no-repeat center center fixed; background-size: cover;
+  //  @include breakpoint(screenLarge) { background: url("/unused/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumUp) { background: url("/unused/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumDown) { background: url("/empty/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenSmall) { background: url("/empty/img/320x568.png") no-repeat center center fixed; background-size: cover; }
   //}
 
-  z-index: -3;
+  //z-index: -3;
 }
 // color goes behind img to progressive enhancement
-.bkg-press {
+.blog-bkg-press {
   background-color: $body-bg;
 }
 

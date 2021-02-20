@@ -15,25 +15,25 @@ body {
 // Customize background
 // -------------------
 
-.bkg-events {
+.blog-bkg-events {
   background: url("/events/img/1440x1024.png") no-repeat center center fixed; background-size: cover;
   @include breakpoint(screenLarge) { background: url("/events/img/1440x1024.png") no-repeat center center fixed; background-size: cover; }
   @include breakpoint(screenMediumUp) { background: url("/events/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/events/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/events/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
 
   // condition for a portrait layout
   //@media (max-aspect-ratio: 1/1) {
   //  background: url("/events/img/768x1024.png") no-repeat center center fixed; background-size: cover;
   //  @include breakpoint(screenLarge) { background: url("/events/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
   //  @include breakpoint(screenMediumUp) { background: url("/events/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenMediumDown) { background: url("/events/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenSmall) { background: url("/events/img/320x568.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumDown) { background: url("/empty/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenSmall) { background: url("/empty/img/320x568.png") no-repeat center center fixed; background-size: cover; }
   //}
 
-  z-index: -3;
+  //z-index: -3;
 }
 // color goes behind img to progressive enhancement
-.bkg-events {
+.blog-bkg-events {
   background-color: $body-bg;
 }
