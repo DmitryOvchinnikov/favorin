@@ -9,8 +9,8 @@
   background: url("/music/discography/img/1440x1024.png") no-repeat center center fixed; background-size: cover;
   @include breakpoint(screenLarge) { background: url("/music/discography/img/1440x1024.png") no-repeat center center fixed; background-size: cover; }
   @include breakpoint(screenMediumUp) { background: url("/music/discography/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/empty/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/empty/img/1024x768.png") no-repeat top center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/empty/img/1024x768.png") no-repeat top center fixed; background-size: cover; }
 
   // condition for a portrait layout
   //@media (max-aspect-ratio: 1/1) {

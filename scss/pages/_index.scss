@@ -8,16 +8,16 @@
   background: url("/img/1440x1024.png") no-repeat center center fixed; background-size: cover;
   @include breakpoint(screenLarge) { background: url("/img/1440x1024.png") no-repeat center center fixed; background-size: cover; }
   @include breakpoint(screenMediumUp) { background: url("/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenMediumDown) { background: url("/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
-  @include breakpoint(screenSmall) { background: url("/img/1024x768.png") no-repeat center center fixed; background-size: cover; }
+  @include breakpoint(screenMediumDown) { background: url("/img/1024x768.png") no-repeat top center fixed; background-size: cover; }
+  @include breakpoint(screenSmall) { background: url("/img/1024x768.png") no-repeat top center fixed; background-size: cover; }
 
   // condition for a portrait layout
   //@media (max-aspect-ratio: 1/1) {
   //  background: url("/img/768x1024.png") no-repeat center center fixed; background-size: cover;
   //  @include breakpoint(screenLarge) { background: url("/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
   //  @include breakpoint(screenMediumUp) { background: url("/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenMediumDown) { background: url("/img/768x1024.png") no-repeat center center fixed; background-size: cover; }
-  //  @include breakpoint(screenSmall) { background: url("/img/320x568.png") no-repeat center center fixed; background-size: cover; }
+  //  @include breakpoint(screenMediumDown) { background: url("/img/768x1024.png") no-repeat top center fixed; background-size: cover; }
+  //  @include breakpoint(screenSmall) { background: url("/img/320x568.png") no-repeat top center fixed; background-size: cover; }
   //}
 
   z-index: -3;
@@ -26,3 +26,33 @@
 .blog-bkg-main {
   background-color: $body-bg;
 }
+
+
+// Animation for quot
+// -------------------
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.blog-quot {
+  scroll-snap-align: end;
+
+  opacity: 0%;
+  transition: opacity 0.5s ease 0s;
+
+  height: 100vh;
+  padding-top: 44vh;
+  padding-bottom: 15vh;
+}
+
+.blog-fade-in {
+  opacity: 100%;
+  transition: opacity 0.5s ease 0s;
+}
+
+.blog-fade-out {
+  opacity: 0%;
+  transition: opacity 0.5s ease 0s;
+}
+
